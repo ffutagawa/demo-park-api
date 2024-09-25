@@ -1,5 +1,6 @@
 package com.ffutagawa.demo_park_api.entity;
 
+import com.ffutagawa.demo_park_api.entity.enums.Role;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -38,11 +39,6 @@ public class Usuario implements Serializable {
 
     @Column(name = "modificado_por")
     private String modificadoPor;
-
-    public enum Role {
-        ROLE_ADMIN,
-        ROLE_CLIENTE
-    }
 
     @Override
     public boolean equals(Object o) {
