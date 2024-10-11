@@ -1,4 +1,4 @@
-package com.ffutagawa.demo_park_api.controller.dto;
+package com.ffutagawa.demo_park_api.web.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;

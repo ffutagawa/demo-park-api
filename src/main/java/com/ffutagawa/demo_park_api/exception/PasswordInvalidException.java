@@ -1,2 +1,7 @@
-package com.ffutagawa.demo_park_api.exception;public class PasswordInvalidException {
+package com.ffutagawa.demo_park_api.exception;
+
+public class PasswordInvalidException extends RuntimeException{
+    public PasswordInvalidException(String message) {
+        super(message);
+    }
 }

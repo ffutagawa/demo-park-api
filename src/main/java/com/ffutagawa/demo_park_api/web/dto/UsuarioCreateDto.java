@@ -1,4 +1,4 @@
-package com.ffutagawa.demo_park_api.controller.dto;
+package com.ffutagawa.demo_park_api.web.dto;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
@@ -13,7 +13,7 @@ import lombok.*;
 public class UsuarioCreateDto {
 
     @NotBlank
-    @Email(message = "formato do e-mail invalido", regexp = "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\\\.[a-zA-Z]{2,}$")
+    @Email(message = "formato do e-mail invalido")
     private String username;
 
     @NotBlank

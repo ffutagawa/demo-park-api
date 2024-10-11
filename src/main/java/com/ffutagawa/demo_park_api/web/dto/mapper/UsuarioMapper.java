@@ -1,7 +1,7 @@
-package com.ffutagawa.demo_park_api.controller.dto.mapper;
+package com.ffutagawa.demo_park_api.web.dto.mapper;
 
-import com.ffutagawa.demo_park_api.controller.dto.UsuarioCreateDto;
-import com.ffutagawa.demo_park_api.controller.dto.UsuarioResponseDto;
+import com.ffutagawa.demo_park_api.web.dto.UsuarioCreateDto;
+import com.ffutagawa.demo_park_api.web.dto.UsuarioResponseDto;
 import com.ffutagawa.demo_park_api.entity.Usuario;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.PropertyMap;

@@ -1,4 +1,4 @@
-package com.ffutagawa.demo_park_api.controller.dto;
+package com.ffutagawa.demo_park_api.web.dto;
 
 import lombok.*;
 
